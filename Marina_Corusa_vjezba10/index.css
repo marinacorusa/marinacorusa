@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+	margin:0;
+	font-family: "Poppins", sans-serif;
+}
+#logobar
+{
+	font-size:35px;
+	text-align:center;
+	background-color:#E8D9ED; 
+	color:white;
+	padding-top: 10px;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+p {
+	font-family: "Poppins", sans-serif;
+}
+
+li
+{
+	font-family:justify;
+	display:inline-block;
+	padding-right:5px;
+	font-size:30 px;
+	text-align: center;
+	padding-top: 10px;
+	height:20px;
+	padding:12px 9px;
+	color:white;
+}
+#nav
+{
+	background-color:#8c705f;
+	color:black;
+	height:45px;
+	font-family:Tahoma,sans-serif;
+	font-size:20px;
+	padding-left:20px;
+	text-align: center;
+	width:100%;
+}
+#nav ul
+{
+	float: right;
+	color:white;	
+}
+#nav li:hover
+{
+    background-color:#a99f96;
+	color:white;
+}
+
+
+#clanak1
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+    width: 85%;
+    margin-left: 100px;
+	margin-right: 80px;
+    text-align: justify;
+	font-size: 20px;
+	
+}
+
+#clanak1 p {
+	padding: 5px;
+	font-family: "Poppins", sans-serif;
+}
+#clanak1 h2
+{
+	margin-bottom: 20px;
+	animation: slidein 3s ease-in-out alternate;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Stilizacija uređene liste */
+.ordered-chocolates {
+    padding-left: 20px; /* Dodavanje unutrašnjeg prostora sa lijeve strane */
+}
+
+/* Stilizacija stavki u uređenoj listi */
+.ordered-chocolates li {
+    font-size: 18px; /* Promjena veličine fonta */
+    margin-bottom: 10px; /* Dodavanje razmaka između stavki */
+    display: block; /* Postavljanje da svaki <li> bude jedan ispod drugog */
+	color: blue;
+}
+
+/* Stilizacija neuređene liste */
+.unordered-chocolates {
+    padding-left: 20px; /* Dodavanje unutrašnjeg prostora sa lijeve strane */
+}
+
+/* Stilizacija stavki u neuređenoj listi */
+.unordered-chocolates li {
+    font-size: 18px; /* Promjena veličine fonta */
+    margin-bottom: 10px; /* Dodavanje razmaka između stavki */
+	color: green;
+}
+.novi_blok {
+	background-color: #E3C8EB;
+	padding:20px;
+	margin:20px;
+	width:50%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+    width: 85%;
+    margin-left: 100px;
+	margin-right: 80px;
+    text-align: justify;
+	font-size: 20px;
+}
+@keyframes slidein {
+	0%{
+    margin-left: 10%;
+    width: 50%; 
+    font-size:2rem;
+  }
+  50%{
+    font-size:3rem;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+    font-size:2rem;
+  }
+}
+#content
+{
+	margin-top: 60px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+   
+.
+#header {
+    display: inline;
+    position: relative;
+    top: 175px;
+    left: 22.5%;
+    font-weight: 400;
+}
+
+#check {
+    position: relative;
+    left: 37%;
+    top: 110px;
+    border: 1px solid white;
+    background-color: rgb(15, 15, 15);
+}
+
+
+@keyframes slidein {
+	0%{
+    margin-left: 10%;
+    width: 50%; 
+    font-size:2rem;
+  }
+  50%{
+    font-size:3rem;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+    font-size:2rem;
+  }
+}
+img.clanak{
+	width:120%;
+	right:0;
+	top:10px;
+}
+img.mjesto
+{
+	right: 0;
+    top: 0px;
+    width: 100%;
+}
+#clanak3
+{
+    margin-top: 200px;
+    width: %;
+    margin-left: 100px;
+	margin-right: 100px;
+    text-align: justify;
+	font-size: 20px;
+}
+#clanak3 h2
+{
+	margin-bottom: 20px;
+    animation: slidein 3s ease-in-out alternate ;
+}
+@keyframes slidein {
+	0%{
+    margin-left: 10%;
+    width: 50%; 
+    font-size:2rem;
+  }
+  50%{
+    font-size:3rem;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+    font-size:2rem;
+  }
+}
+
+
+
+/*galerija*/
+.wrapper { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+.wrapper img {
+  padding: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+.centar {
+    text-align: center;
+}
+
+.container {
+    text-align: center; /* Centriramo sadržaj u roditeljskom divu */
+}
+
+video, audio {
+    display: inline-block; /* Postavljamo ih kao inline-block elemente */
+    margin: 0 10px; /* Dodajemo malo razmaka između video i audio elemenata */
+}
